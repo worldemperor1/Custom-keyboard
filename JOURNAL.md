@@ -2,13 +2,9 @@
 
 ## 1. Keyboard schematic (5 hours 17 mins)  
 
-<div style="background-color: white; padding: 10px; display: inline-block; margin-bottom: 20px;">
-  <img src="./svgs/1/my-keeb.svg" alt="My Keyboard Schematic" />
-</div>
+![My Keyboard Schematic](./svgs/1/my-keeb.svg)
+![My RGB Schematic](./svgs/1/my-keeb-RGB.svg)
 
-<div style="background-color: white; padding: 10px; display: inline-block; margin-bottom: 20px;">
-  <img src="./svgs/1/my-keeb-RGB.svg" alt="My Keyboard Schematic" />
-</div>
 
 I am almost done with the schematic! I am only missing the footprints. I added RGBs, an RGB toggle switch, and a rotary encoder to my keyboard schematic.
 
