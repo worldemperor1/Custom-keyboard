@@ -40,7 +40,7 @@ The microcontroller seems too close to the switches beside it.
 
 **What I did:**
 
-I added the diodes in my PCB and fixed a few swtitch alignments.
+I added the diodes in my PCB and fixed a few switch alignments.
 
 ![My Diodes PCB](./svgs/3/Diodes.png)
 
