@@ -34,3 +34,20 @@ I added the footprints and placed the switches and the microcontroller on the PC
 **Potential issues:**
 
 The microcontroller seems too close to the switches beside it.
+
+
+## 3. Diodes PCB (2 hours 5 mins)
+
+**What I did:**
+
+I added the diodes in my PCB and fixed a few swtitch alignments.
+
+![My Diodes PCB](./svgs/3/Diodes.png)
+
+**Problems I encountered:**
+
+To make the diodes' ratsnest align with their corresponding switch, I had to snap the diodes' pin onto the switches' pin and then place them. Doing this manually took a lot longer than expected, maybe I should have just changed to a really smaller grid size.
+
+**Issues to fix:**
+
+The 2u stabilizers are overlapping with the diodes.
