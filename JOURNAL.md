@@ -51,3 +51,25 @@ To make the diodes' ratsnest align with their corresponding switch, I had to sna
 **Issues to fix:**
 
 The 2u stabilizers are overlapping with the diodes.
+
+## 4. RGB PCB (4 hours 26 mins)
+
+**What I did:**
+
+* I added the RGB LEDs and the capacitors in my PCB.
+
+![My RGB PCB](./svgs/4/RGB.png)
+
+* I fixed the overlapping issue by moving the diodes a bit further away from the 2u stabilizers. I also flipped the diodes on the back layer for a cleaner front layer.
+* I realized that my bottom-left keys (such as "Ctrl", "Windows", and "Alt") were actually 1.25u, instead of 1u, so I had to redo the bottom row's layout.  
+* Finding a fitting tactile switch and its cap was difficult, so I changed the RGB toggle switch to a rotary encoder, which offers more flexibility for RGB control.
+
+![My new SCH](./svgs/4/my-keeb.svg)
+
+
+
+**Problems I encountered:**
+* Managing the grid snapping and spacing for the capacitors was difficult when placing them to the left of the RGB LEDs. I ended up placing them underneath the RGB LEDs instead.
+
+![Grid](./svgs/4/Grid.png)
+
