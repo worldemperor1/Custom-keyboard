@@ -62,7 +62,8 @@ The 2u stabilizers are overlapping with the diodes.
 
 * I fixed the overlapping issue by moving the diodes a bit further away from the 2u stabilizers. I also flipped the diodes on the back layer for a cleaner front layer.
 * I realized that my bottom-left keys (such as "Ctrl", "Windows", and "Alt") were actually 1.25u, instead of 1u, so I had to redo the bottom row's layout.  
-* Finding a fitting tactile switch and its cap was difficult, so I changed the RGB toggle switch to a rotary encoder, which offers more flexibility for RGB control.
+* Finding a fitting tactile switch and its cap was difficult, so I changed the RGB toggle switch to a rotary encoder, which offers more flexibility for RGB control.  
+Here is the updated schematic:
 
 ![My new SCH](./svgs/4/my-keeb.svg)
 
