@@ -74,3 +74,28 @@ Here is the updated schematic:
 
 ![Grid](./svgs/4/Grid.png)
 
+
+## 5. Routing the copper traces (6 hours 14 mins)
+
+**What I did:**  
+* I routed the copper traces. 
+
+* I rotated the RGB LEDs and relocated the capacitors to the right side of the LEDs because routing took more steps with the capacitors underneath the RGB LEDs. 
+
+![Capacitor](./svgs/5/Capacitor.png)
+
+**Problems I encountered:**
+
+* I forgot I had to let the USB cable connector stick out of the PCB, so I had to redo the routing. 
+
+![USB](./svgs/5/USB.png)
+
+![Keyboard](./svgs/5/Keyboard.png)
+
+* My new routing isn't good either because  my RGB GPIO pin on my Rasberry Pi is blocked by surrounding traces.
+
+![Routing](./svgs/5/Routing.png)
+
+**What I will do next:**
+
+* Swap my pins assignmnts on my Rasberry Pi in the schematic to match my current PCB layout and to simplify the trace routing.
