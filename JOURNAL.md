@@ -92,10 +92,36 @@ Here is the updated schematic:
 
 ![Keyboard](./svgs/5/Keyboard.png)
 
-* My new routing isn't good either because  my RGB GPIO pin on my Rasberry Pi is blocked by surrounding traces.
+* My new routing is problematic because the RGB GPIO pin on my Rasberry Pi is blocked by surrounding traces.
 
 ![Routing](./svgs/5/Routing.png)
 
 **What I will do next:**
 
-* Swap my pins assignmnts on my Rasberry Pi in the schematic to match my current PCB layout and to simplify the trace routing.
+* Swap my pin assignmnts on my Rasberry Pi in the schematic to match my current PCB layout and simplify the trace routing.
+
+## 6. Fixed routing (6 hours 43 mins)
+
+**What I did:**
+
+* I updated my Rasberry Pi's schematic to match my PCB's layout.
+
+![Schematic](./svgs/6/SCH.png)
+
+* I redid my routing with the updated GPIO pins, made the routing cleaner, and routed the +5V copper traces. I also made them thicker than the data lines.
+
+![UpdatedPCB](./svgs/6/UpdatedPCB.png)
+
+* I manually added via routing for my GND pins on the RGB LEDs and capacitors, which took a lot of time.
+
+![GND](./svgs/6/GND.png)
+
+**Here is the currently final version of my PCB:**  
+
+![PCB](./svgs/6/PCB.png)
+
+**Problems I encountered:**
+
+* Having a daisy chain for my RGB LEDs  could cause a voltage drop at the end of the chain, so I redid my routing and changed the +5v routing to a main line that branches off each into each row. 
+
+![Branch](./svgs/6/Branch.png)
